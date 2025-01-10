@@ -1,0 +1,91 @@
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p, 
+ul, 
+ol, 
+blockquote {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	background-color: #1e1e1e;
+	font-family: 'Inter', sans-serif;
+}
+
+.content-section {
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 360px;
+	margin: auto;
+}
+
+.content-section_theme_dark {
+	color: #fff;
+	background-color: #131313;
+}
+
+.content-section_theme_bright {
+	color: #131313;
+	background-color: #fee42a;
+}
+
+.header {
+	padding: 20px 24px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__logo {
+	
+}
+.header__logo-image {
+	width: 79px;
+	height: 16px;
+}
+.header__menu {
+}
+.header__menu-list {
+	list-style-type: none;
+}
+.header__menu-item {
+	text-decoration: underline;
+	margin-bottom: 12px;
+}
+
+.header__menu-item:last-of-type {
+	margin-bottom: 0;
+}
+
+.header__menu-item_active {
+	text-decoration: none;
+	
+}
+.header__menu-link {
+	color: #fff;
+}
+
+.cover {
+	padding-left: 20px;
+}
+
+.intro {
+	padding: 30px 20px 38px;
+}
+
+.reasons {
+	padding: 40px 20px;
+}
+
+.how-to {
+	padding: 40px 20px 60px;
+}
+
+.footer {
+	padding: 20px;
+}
